@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\theok\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\theok\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_solar_system_3i.532791306.00" t="ExcludeRecursive" />
+    <e p="C:\Users\theok\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\theok\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_solar_system_3i.532791306.00" t="ExcludeRecursive" />
     <e p="D:\ESME\INGE3\VR\solar_system_3i" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Emulation" t="Include">
-          <e p="EmulateVRControler.cs" t="Include" />
-          <e p="KeyboardControls.cs" t="Include" />
-          <e p="MouseLook.cs" t="Include" />
+        <e p="Interactions" t="Include">
+          <e p="ControllerPickUp.cs" t="Include" />
+          <e p="Emulation" t="Include">
+            <e p="EmulateVRControler.cs" t="Include" />
+            <e p="KeyboardControls.cs" t="Include" />
+            <e p="MouseLook.cs" t="Include" />
+          </e>
+          <e p="PickableItem.cs" t="Include" />
+          <e p="ThrowableItem.cs" t="Include" />
         </e>
         <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
@@ -777,6 +782,11 @@
               <e p="SimpleJSONUnity.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Gravity.cs" t="Include" />
+          <e p="Planet.cs" t="Include" />
+          <e p="Sun.cs" t="Include" />
         </e>
         <e p="SolarSystem" t="Include">
           <e p="noiseSimplex.cginc" t="Include" />

@@ -122,7 +122,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\HandPose.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
-     <Compile Include="Assets\Emulation\MouseLook.cs" />
+     <Compile Include="Assets\Interactions\Emulation\MouseLook.cs" />
      <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextBase.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCrossingController.cs" />
      <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSync.cs" />
@@ -175,8 +175,8 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\VectorUtil.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\LocalAvatar\Scripts\GazeTargetSpawner.cs" />
      <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
-     <Compile Include="Assets\Emulation\KeyboardControls.cs" />
-     <Compile Include="Assets\Emulation\EmulateVRControler.cs" />
+     <Compile Include="Assets\Interactions\Emulation\KeyboardControls.cs" />
+     <Compile Include="Assets\Interactions\Emulation\EmulateVRControler.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
@@ -206,6 +206,12 @@
      <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Scripts\Sun.cs" />
+     <Compile Include="Assets\Scripts\Planet.cs" />
+     <Compile Include="Assets\Interactions\ControllerPickUp.cs" />
+     <Compile Include="Assets\Interactions\PickableItem.cs" />
+     <Compile Include="Assets\Interactions\ThrowableItem.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
