@@ -2,104 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98be98df-c00d-4ba2-a1c2-73cdbdb08cb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.solar_system_3i/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Camera.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Camera.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Camera.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Camera.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/EmulateVRControler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/EmulateVRControler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/KeyboardControls.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/KeyboardControls.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/MouseLook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/MouseLook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom0.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom7.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom8.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/BestRoom9.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom6.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom6.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom7.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom7.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom8.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom8.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom9.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom9.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom11.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom11.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom13.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom13.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom15.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom15.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom17.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom17.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom19.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom19.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom7.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom7.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom9.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Materials/BestRoom_BestRoom9.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Room.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Emulation/Room/Room.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/29/2938d8d4771e86d1cefa575e8862e773.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/29/2938d8d4771e86d1cefa575e8862e773.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Oculus.VR.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Oculus.VR.Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Oculus.VR.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Oculus.VR.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,10 +30,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Gravity.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Sun.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
-      <option value="$PROJECT_DIR$/Assets/Interactions/ControllerPickUp.cs" />
       <option value="$PROJECT_DIR$/Assets/Interactions/PickableItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Interactions/ControllerPickUp.cs" />
       <option value="$PROJECT_DIR$/Assets/Interactions/ThrowableItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pc9ExAZQJFFGlYEGEShXK9o8qp" />
@@ -176,6 +88,7 @@
       <updated>1615471417697</updated>
       <workItem from="1615471447924" duration="4978000" />
       <workItem from="1616064745977" duration="3935000" />
+      <workItem from="1616068990531" duration="847000" />
     </task>
     <servers />
   </component>
@@ -194,6 +107,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
