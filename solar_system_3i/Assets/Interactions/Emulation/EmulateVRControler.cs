@@ -62,8 +62,14 @@ public class EmulateVRControler : MonoBehaviour
 
         //Envoie des événements pour simuler l'appuis d'un bouton sur la manette
         if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("ok");
             onTriggerPressed.Invoke();
+        }
+
         if (Input.GetMouseButtonUp(0))
+        {
             onTriggerReleased.Invoke();
+        }
     }
 }

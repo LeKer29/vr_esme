@@ -66,7 +66,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NoiseAspect: 3
-    - _NoiseFreq: 1
+    - _NoiseFreq: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimAmount: 0.716

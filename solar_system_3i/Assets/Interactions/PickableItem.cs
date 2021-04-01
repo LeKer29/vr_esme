@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,12 +12,14 @@ using UnityEngine;
 public class PickableItem : MonoBehaviour
 {
 	
-	bool isPickedUp;
+	public bool isPickedUp;
+	public Gravity objGravity;
 	 
 	public virtual void OnItemPickedUp(Transform holder) // holder = manette
 	{
 		isPickedUp = true;
 		transform.SetParent(holder, true);
+		
 	}
 	 
 	public virtual void OnItemReleased() 
@@ -25,4 +28,17 @@ public class PickableItem : MonoBehaviour
 		transform.SetParent(null, true);
 	}
 
+
+	public virtual void Update()
+	{
+		if (isPickedUp == true)
+		{
+			objGravity.enabled = false;
+			transform.position = transform.parent.position;
+		}
+		else
+		{
+			objGravity.enabled = true;
+		}
+	}
 }

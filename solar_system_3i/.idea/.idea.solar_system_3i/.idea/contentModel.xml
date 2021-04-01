@@ -786,6 +786,7 @@
         <e p="Scripts" t="Include">
           <e p="Gravity.cs" t="Include" />
           <e p="Planet.cs" t="Include" />
+          <e p="SpawnPlanet.cs" t="Include" />
           <e p="Sun.cs" t="Include" />
         </e>
         <e p="SolarSystem" t="Include">

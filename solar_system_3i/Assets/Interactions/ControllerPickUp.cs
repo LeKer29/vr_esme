@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 /// <summary>
@@ -18,14 +20,20 @@ public class ControllerPickUp : MonoBehaviour
 	Rigidbody pickedUpItem;
 	
 	public void PickUp() {
-		Collider[] hitItems = Physics.OverlapSphere(transform.position, 0.3f);
+		Collider[] hitItems = Physics.OverlapSphere(transform.position, 5f);
+		if (hitItems.Length == 0)
+			return;
 		pickedUpItem = hitItems[0].attachedRigidbody;
 		pickedUpItem.SendMessage("OnItemPickedUp", transform);
 	}
-	 
-	public void Release() {
+	
+	public void Release()
+	{
+
+		if (pickedUpItem == null)
+			return;
+		
 		pickedUpItem.SendMessage("OnItemReleased");
 		pickedUpItem = null;
 	}
-
 }
