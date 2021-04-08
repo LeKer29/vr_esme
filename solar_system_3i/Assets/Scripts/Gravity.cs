@@ -9,6 +9,9 @@ public class Gravity : MonoBehaviour
     private const float G = 667.4f;
     public static List<Gravity> Gravities;
 
+    /// <summary>
+    /// On applique la fonction Attract() sur toutes les planètes
+    /// </summary>
     private void FixedUpdate()
     {
         foreach (Gravity gravity in Gravities)
@@ -19,6 +22,9 @@ public class Gravity : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// On récupère l'ensemble des composants Gravity présents dans la simulation
+    /// </summary>
     private void OnEnable()
     {
         if (Gravities == null)
@@ -32,6 +38,10 @@ public class Gravity : MonoBehaviour
         Gravities.Remove(this);
     }
 
+    /// <summary>
+    /// Cette fonction permet d'appliquer la force gravitationnelle universelle
+    /// </summary>
+    /// <param name="objToAttract"></param>
     void Attract(Gravity objToAttract)
     {
         Rigidbody rbToAttract = objToAttract.rb;
@@ -48,9 +58,8 @@ public class Gravity : MonoBehaviour
         
         Vector3 orbit = Vector3.Cross(force, Vector3.up).normalized;
         
-        rbToAttract.AddForce(force/1000);
-        if (!rbToAttract.CompareTag("Sun"))
-            rbToAttract.velocity=orbit*6;
+        rbToAttract.AddForce(force/2000,ForceMode.Acceleration);
+        rbToAttract.velocity=orbit*6;
         
         
 

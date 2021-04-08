@@ -74,15 +74,15 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _ThresholdValue: 0.361
-    - _ThresholdWidth: 0.529
+    - _ThresholdValue: 0.7983618
+    - _ThresholdWidth: 0.8236989
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _AmbientColor: {r: 2, g: 2, b: 2, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 0.0806483, b: 0, a: 1}
-    - _Color2: {r: 0.4528302, g: 0.30661234, b: 0.11320755, a: 1}
+    - _Color1: {r: 0.3724635, g: 0.65741074, b: 0.8490566, a: 255}
+    - _Color2: {r: 0.17872933, g: 0.14297791, b: 0.5943396, a: 255}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 0.6928622, g: 0.72919923, b: 0.8490566, a: 1}

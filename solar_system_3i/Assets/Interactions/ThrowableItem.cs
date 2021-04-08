@@ -1,43 +1,43 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-
-/// <summary>
-/// composant qui permet de rendre l'objet lançable
-/// hérite du comportement prenable
-/// </summary>
-
-
-
-public class ThrowableItem : PickableItem
+namespace Interactions
 {
-    private Vector3 lastPosition;
-    private Vector3 currentPosition;
-    private Vector3 speed;
-    public Rigidbody rb;
-    
-    public override void OnItemReleased()
+    /// <summary>
+    /// composant qui permet de rendre l'objet lançable
+    /// hérite du comportement prenable
+    /// </summary>
+    public class ThrowableItem : PickableItem
     {
-        if (currentPosition != lastPosition)
+        private Vector3 _lastPosition;
+        private Vector3 _currentPosition;
+        private Vector3 _speed;
+        public Rigidbody rb;
+    
+        
+        /// <summary>
+        /// Quand l'objet est relaché, on lui applique une vitesse proportionnelle à la distance parcourue entre 2 frames.
+        /// </summary>
+        public override void OnItemReleased()
         {
-            speed = (lastPosition - currentPosition) / Time.deltaTime;
-            rb.velocity = speed;
+            if (_currentPosition != _lastPosition)
+            {
+                _speed = (_lastPosition - _currentPosition) / Time.deltaTime;
+                rb.velocity = _speed;
+            }
+        
+            base.OnItemReleased();
         }
         
-        base.OnItemReleased();
-    }
 
-    public override void Update()
-    {
-        if(currentPosition != null)
-            lastPosition = currentPosition;
+        public override void Update()
+        {
+            if(_currentPosition != null)
+                _lastPosition = _currentPosition;
         
-        currentPosition = transform.position;   
+            _currentPosition = transform.position;   
         
-        base.Update();
-        
-    }
+            base.Update();
+        }
     
+    }
 }

@@ -19,6 +19,12 @@ public class ControllerPickUp : MonoBehaviour
 
 	Rigidbody pickedUpItem;
 	
+	
+	/// <summary>
+	/// Fonction appelé quand le clic gauche de la souris est enfoncé
+	/// Récupère les colliders des objets touchés par une sphère de rayon 5
+	/// On envoie un message à l'objet du premier collider pour appeler sa fonction OnItemPickedUp
+	/// </summary>
 	public void PickUp() {
 		Collider[] hitItems = Physics.OverlapSphere(transform.position, 5f);
 		if (hitItems.Length == 0)
@@ -27,6 +33,10 @@ public class ControllerPickUp : MonoBehaviour
 		pickedUpItem.SendMessage("OnItemPickedUp", transform);
 	}
 	
+	/// <summary>
+	/// Fonction appelée quand le clic gauche de la souris est relaché.
+	/// Envoie un message à l'objet tenu pour le relacher.
+	/// </summary>
 	public void Release()
 	{
 
