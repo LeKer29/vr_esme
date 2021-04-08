@@ -8539,6 +8539,7 @@ GameObject:
   - component: {fileID: 1121388233}
   - component: {fileID: 1121388232}
   - component: {fileID: 1121388238}
+  - component: {fileID: 1121388239}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -8663,6 +8664,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d050075314e694ab3ee075007704f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1121388239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121388231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe39f63d56836b45bfeba3d1d38eee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPickedUp: 0
+  objGravity: {fileID: 1121388233}
+  rb: {fileID: 1121388232}
 --- !u!1001 &1138965937
 PrefabInstance:
   m_ObjectHideFlags: 0
